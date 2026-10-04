@@ -1,0 +1,64 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+h1 {
+    margin: 1em;
+    color: white;
+}
+ul {
+    display: flex;
+}
+.nav-item {
+    list-style-type: none;
+    margin: 1em 1em;
+    background-color: skyblue;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+
+
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+/* Main */
+
+
+ main {
+    margin: 0;
+    background-image: url("Images/pokemonBackground.webp");
+    background-size: cover;
+ }
+ .description-container {
+    padding: 2em;
+    background-color: black;
+    max-width: 50%;
+    margin: 0 auto;
+    color: white;
+    height: 100%;
+    min-height: 900px;
+
+ }
+ h2 {
+    margin: 0;
+ }
+.description {
+    max-width: 90%;
+    margin: 2em auto;
+    line-height: 1.5;
+}
+.hero-img {
+    border-radius: 50%;
+    width: 20%;
+}
